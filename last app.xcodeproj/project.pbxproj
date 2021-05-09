@@ -13,6 +13,7 @@
 		243BE6FB264798E8008BEF1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243BE6F9264798E8008BEF1D /* Main.storyboard */; };
 		243BE6FD264798E9008BEF1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243BE6FC264798E9008BEF1D /* Assets.xcassets */; };
 		243BE700264798E9008BEF1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243BE6FE264798E9008BEF1D /* LaunchScreen.storyboard */; };
+		243BE70B264799EF008BEF1D /* Screen Shot 2021-04-29 at 12.10.55 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 243BE70A264799EF008BEF1D /* Screen Shot 2021-04-29 at 12.10.55 AM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		243BE6FC264798E9008BEF1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		243BE6FF264798E9008BEF1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		243BE701264798E9008BEF1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243BE70A264799EF008BEF1D /* Screen Shot 2021-04-29 at 12.10.55 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-04-29 at 12.10.55 AM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		243BE6F2264798E8008BEF1D /* last app */ = {
 			isa = PBXGroup;
 			children = (
+				243BE70826479913008BEF1D /* pic */,
 				243BE6F3264798E8008BEF1D /* AppDelegate.swift */,
 				243BE6F5264798E8008BEF1D /* SceneDelegate.swift */,
 				243BE6F7264798E8008BEF1D /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				243BE701264798E9008BEF1D /* Info.plist */,
 			);
 			path = "last app";
+			sourceTree = "<group>";
+		};
+		243BE70826479913008BEF1D /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				243BE70A264799EF008BEF1D /* Screen Shot 2021-04-29 at 12.10.55 AM.png */,
+			);
+			path = pic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				243BE700264798E9008BEF1D /* LaunchScreen.storyboard in Resources */,
+				243BE70B264799EF008BEF1D /* Screen Shot 2021-04-29 at 12.10.55 AM.png in Resources */,
 				243BE6FD264798E9008BEF1D /* Assets.xcassets in Resources */,
 				243BE6FB264798E8008BEF1D /* Main.storyboard in Resources */,
 			);
